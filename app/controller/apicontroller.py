@@ -8,7 +8,7 @@ db = pymongo.MongoClient(
     "mongodb+srv://dwibagus154:mUnvBeu7vR3hAaK@cluster0.uqmyh.mongodb.net/test?retryWrites=true&w=majority")
 # database
 mydatabase = db["scraping"]
-# collection
+# collectionn
 collection = mydatabase['imdb']
 
 
